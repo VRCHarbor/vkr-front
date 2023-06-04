@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: rgb(47, 91, 107);
+  color:mintcream;
 }
 
 .App-logo {
@@ -35,4 +36,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App footer{
+  background-color:rgb(24, 27, 30);
+  height: 100%;
+  text-align: center;
 }

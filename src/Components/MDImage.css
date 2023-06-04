@@ -1,0 +1,51 @@
+.md-container
+{
+    text-align: justify;
+}
+
+.md-container blockquote
+{
+    background: #3d3333;
+    border-left: 10px solid #2a0909;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    box-shadow: 0 0 10px bisque;
+}
+
+.md-container p
+{
+    margin: 1.cm;
+    padding: 1.cm;
+}
+
+.md-container blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.md-container  blockquote p {
+    display: inline;
+    color: #ffe2c7
+}
+
+.md-container img
+{
+    min-width: 256px;
+    max-width: 100%;
+    border-radius: 1cm;
+    box-shadow:  0 0 10px bisque;
+}
+
+.md-container pre
+{
+    background-color: dimgray;
+    padding: 1cm;
+    color: aquamarine;
+    border-radius: .5cm;
+    box-shadow: 0 0 10px bisque;
+}
